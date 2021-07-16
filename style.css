@@ -13,11 +13,11 @@ background: #6F7BF7;
   color:white;
 
 }
-a{
+.about a{
   color:black;
   text-decoration:none;
 }
-a:hover{
+.about a:hover{
   color:black;
   text-decoration:underline;
 }
