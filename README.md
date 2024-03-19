@@ -15,10 +15,6 @@
 
 - Github: [@divinessh](https://github.com/divinessh)
 
-👤 **Darkcode**
-
-- Website: [darkcode.info](https://darkcode.info/)
-
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
