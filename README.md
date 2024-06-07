@@ -7,7 +7,7 @@
 
 ## Built With
 
-- HTML, CSS, JavaScript
+- HTML, CSS
 
 ## Authors
 
