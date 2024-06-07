@@ -204,9 +204,8 @@
 
         <section id="contact">
             <h2>Contact Form</h2>
-            <form action="https://formsubmit.io/send/divinesshsiva@gmail.com" method="POST" >
-              <input name="_redirect" type="hidden" id="name" value="https://divinessh.github.io/contact/thanks.html">
-              <label for="name">Name:</label>
+            <form action="https://formsubmit.co/7c96ba9b6a52e76cfd53d54335aca2d8" method="POST" >
+              <input type="hidden" name="_next" value="https://divinessh.github.io/contact/thanks.html">
               <input type="text" name="name" required>
 
               <label for="email">Email:</label>
@@ -214,7 +213,9 @@
 
               <label for="message">Message:</label>
               <textarea name="message" rows="5" required></textarea>
-
+              <input type="hidden" name="_captcha" value="false">
+        
+              <input type="hidden" name="_autoresponse" value="Thank you for contacting. I'll get back soon. Note this is an auto-generated email.">
               <input type="submit" class="btn" value="Submit">
             </form>
         </section>
