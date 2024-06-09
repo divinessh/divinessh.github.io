@@ -19,6 +19,7 @@
             padding: 0;
             background-color: #f4f4f4;
             color: #333;
+            min-width:50vh;
         }
         header {
             background-color: #333;
@@ -213,9 +214,9 @@
 
               <label for="message">Message:</label>
               <textarea name="message" rows="5" required></textarea>
+
+              <p style="color:green;">Note : It may take 5-20 seconds to process your submission. Thank you for kindly waiting in advance.</p>
               <input type="hidden" name="_captcha" value="false">
-        
-              <input type="hidden" name="_autoresponse" value="Thank you for contacting. I'll get back soon. Note this is an auto-generated email.">
               <input type="submit" class="btn" value="Submit">
             </form>
         </section>
