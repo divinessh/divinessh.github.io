@@ -1,263 +1,294 @@
-<!--Version 1.0, Created by Divinessh Siva, June 2024-->
+<!--Version 1.1 , Created by Divinessh Siva, August 2025-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="I'm Divinessh, an excellent student interested in computer science, IT, and video editing">
-    <meta name="keywords" content="divinessh siva, divinessh, divinessh website, divinessh github, divinessh.github.io">
-    <link rel="icon" href="divinesshwebicon.png" type="image/x-icon" />
-    <link rel="canonical" href="https://divinessh.github.io">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Divinessh Siva</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px 0;
-            text-align: center;
-        }
-
-        ::selection{
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="I’m Divinessh Siva, a 19-year-old tech enthusiast with a big love for coding, design, and all things digital. I recently graduated from the Asasi Pintar Foundation at UKM">
+  <meta name="keywords" content="divinessh siva, divinessh, divinessh website, divinessh github, divinessh.github.io">
+  <title>Divinessh Siva</title>
+  <link rel="icon" href="divinesshwebicon.png" type="image/x-icon">
+  <link rel="canonical" href="https://divinessh.github.io">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    ::selection{
           background: #695cff;
           color:white;
-        }
-
-        header h1 {
-            color: #fff; /* Set header text color to white */
-            margin: 0;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        .profile-img {
-            float: right;
-            margin-left: 20px;
-            border-radius: 50%;
-            border: 2px solid #ccc; /* Thin grey border */
-            width: 150px;
-            height: 150px;
-        }
-        #about, #contact, #portfolio, #resume, #academic-results, #skills {
-            padding: 20px;
-            background: #fff;
-            margin: 20px 0;
-            border-radius: 8px;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        ul li {
-            padding: 5px 0;
-            display: flex;
-            align-items: center;
-        }
-        ul li a {
-            color: #333;
-            text-decoration: none;
-            margin-left: 10px;
-            transition: color 0.3s;
-        }
-        ul li a:hover {
-            color: #695cff;
-        }
-        .icon-circle {
-            background-color: #ccc;
-            color: #fff;
-            border-radius: 50%;
-            padding: 10px;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            width: 40px;
-            height: 40px;
-            font-size: 20px;
-        }
-        label {
-            display: block;
-            margin-bottom: 10px;
-            font-weight: bold;
-        }
-        input, textarea {
-            width: 100%;
-            padding: 10px 0 10px 0;
-            margin-bottom: 20px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            font-family: 'Poppins', sans-serif;
-            font-size: 16px;
-        }
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            font-family:poppins;
-            font-size: 16px;
-            color: #fff;
-            background-color: #695cff;
-            border: none;
-            border-radius: 5px;
-            text-decoration: none;
-            transition: background-color 0.3s;
-        }
-        .btn:hover {
-            background-color: #5748cc;
-        }
-        footer {
-            text-align: center;
-            padding: 10px 0;
-            background-color: #333;
-            color: #fff;
-            position: relative;
-            width: 100%;
-        }
-        /* Skills bars*/
-        .skill {
-            margin-bottom: 10px;
-        }
-        .skill-name {
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-        .skill-bar {
-            height: 20px;
-            background-color: #eee;
-            border-radius: 10px;
-            position: relative;
-            overflow: hidden;
-        }
-        .skill-level {
-            height: 100%;
-            background-color: #695cff;
-            border-radius: 10px;
-            position: absolute;
-            left: 0;
-            top: 0;
-            transition: width 1s ease-in-out;
-        }
-    </style>
+      }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+      line-height: 1.6;
+      scroll-behavior: smooth;
+    }
+    header {
+      background: linear-gradient(135deg, #695cff, #4d44b5);
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #e0e0ff;
+    }
+    .container {
+      width: 85%;
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 0;
+    }
+    section {
+      background: white;
+      margin-bottom: 30px;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    section.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    h2 {
+      margin-bottom: 15px;
+      color: #4d44b5;
+    }
+    .profile-img {
+      float: right;
+      margin-left: 20px;
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      object-position: center;
+      box-shadow: 0 4px 15px rgba(105, 92, 255, 0.4);
+    }
+    /* Skills */
+    .skill {
+      margin-bottom: 15px;
+    }
+    .skill-name {
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    .skill-name i {
+      margin-right: 8px;
+      color: #695cff;
+    }
+    .skill-bar {
+      height: 20px;
+      background-color: #eee;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .skill-level {
+      height: 100%;
+      background-color: #695cff;
+      width: 0;
+      border-radius: 10px;
+      transition: width 1s ease-in-out;
+    }
+    /* Portfolio */
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .project-card {
+      background: #fafafa;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      transition: transform 0.3s ease;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+    .project-card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #695cff;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+      transition: background 0.3s;
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+    .btn:hover {
+      background: #5748cc;
+    }
+    /* Contact */
+    #contact form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    #contact input, #contact textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+    }
+    .social-icons {
+      display: flex;
+      gap: 15px;
+      margin-top: 15px;
+    }
+    .social-icons a {
+      text-decoration:none;
+      color: white;
+      background: #695cff;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      font-size: 18px;
+      transition: background 0.3s;
+    }
+    .social-icons a:hover {
+      background: #5748cc;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: white;
+      margin-top: 20px;
+    }
+    @media(max-width: 768px) {
+      .profile-img {
+        float: none;
+        display: block;
+        margin: 0 auto 20px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Divinessh Siva</h1>
-    </header>
-    <div class="container">
-        <section id="about">
-            <h2>About Me</h2>
-            <img src="https://divinessh.github.io/about.jpg" alt="Divinessh Siva" class="profile-img">
-            <p>Hi, there! I'm Divinessh A/L Siva, a 19-year old Malaysian high school graduate from SMK Datuk Onn Butterworth. I've obtained an excellent result of 5A+ and 4As in the national Sijil Pelajaran Malaysia (SPM) examination in 2023 and am currently undergoing a foundation course at UKM. I am looking forward to continue my higher studies in the field of Computer Science or Software Engineering</p>
-            <p>Feel free to know more about me by scrolling down through this page or by contacting me by the methods listed in the next section. Thank you and have a nice day😊!</p>
-        </section>
 
-        <section id="skills">
-            <h2>Skills</h2>
-            <div class="skill">
-                <div class="skill-name">Front-end Development</div>
-                <div class="skill-bar">
-                    <div class="skill-level" style="width: 85%;"></div>
-                </div>
-            </div>
-  
-            <div class="skill">
-                <div class="skill-name">Video Editing</div>
-                <div class="skill-bar">
-                    <div class="skill-level" style="width: 85%;"></div>
-                </div>
-            </div>
-            <div class="skill">
-                <div class="skill-name">Designing</div>
-                <div class="skill-bar">
-                    <div class="skill-level" style="width: 75%;"></div>
-                </div>
-            </div>
-        </section>
+  <header>
+    <h1>Divinessh Siva</h1>
+    <p>Aspiring Front-End Developer | Student</p>
+  </header>
 
-        <section id="portfolio">
-            <h2>Portfolio</h2>
-            <p>Here are some of my latest coding projects:</p>
-            <a href="https://github.com/divinessh" class="btn" download>View Github</a>
-            <!--<ul>
-                <li><a href="https://github.com/divinesshsiva/project1" target="_blank">Project 1</a></li>
-                <li><a href="https://github.com/divinesshsiva/project2" target="_blank">Project 2</a></li>
-                <li><a href="https://github.com/divinesshsiva/project3" target="_blank">Project 3</a></li>
-            </ul>-->
-        </section>
+  <div class="container">
 
-        <section id="contact">
-            <h2>Contact Form</h2>
-            <form action="https://formsubmit.co/7c96ba9b6a52e76cfd53d54335aca2d8" method="POST" >
-              <input type="hidden" name="_next" value="https://divinessh.github.io/contact/thanks.html">
-              <label for="name">Name:</label>
-              <input type="text" name="name" required>
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="https://divinessh.github.io/about.jpg" alt="Divinessh Siva" class="profile-img">
+      <p>Hey there! 👋 I’m Divinessh Siva, a 19-year-old tech enthusiast 🚀 with a big love for coding, design,
+        and all things digital. I recently graduated from the Asasi Pintar Foundation at UKM 🎓,
+        and before that, I proudly scored 5A+ and 4A in my SPM 📚 (thanks to hardwork and coffee, hehe☕)</p>
+<br>
+      <p>I enjoy turning ideas into interactive and impactful creations 💡
+        From building sleek websites to exploring AI 🤖 and experimenting with side projects 🔧.
+        Outside of coding, I’m constantly learning new skills, keeping up with the latest tech trends,
+        and sharing knowledge with others 🌟. For me, technology isn’t just a career path,
+        it’s a way to create, inspire, and make a difference 💙.</p>
+      <br><p>Scroll down to explore my skills, projects, and ways to connect with me. 😊</p>
+    </section>
 
-              <label for="email">Email:</label>
-              <input type="email" name="email" required>
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skill">
+        <div class="skill-name"><i class="fab fa-html5"></i> Front-end Development</div>
+        <div class="skill-bar"><div class="skill-level" data-skill="85%"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name"><i class="fas fa-video"></i> Video Editing</div>
+        <div class="skill-bar"><div class="skill-level" data-skill="85%"></div></div>
+      </div>
+      <div class="skill">
+        <div class="skill-name"><i class="fas fa-pencil-ruler"></i> Designing</div>
+        <div class="skill-bar"><div class="skill-level" data-skill="75%"></div></div>
+      </div>
+    </section>
 
-              <label for="message">Message:</label>
-              <textarea name="message" rows="5" required></textarea>
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <div class="projects">
+        <div class="project-card">
+          <img src="https://divinessh.github.io/campus.png" alt="Project 1">
+          <h3>Campus Lost and Found Web App</h3>
+          <p>A web app to help students on campus to report lost and found items and
+view recently lost/found items too</p>
+          <a href="https://divinessh.github.io/lostandfound" target="_blank" class="btn">View Page</a>
+        </div>
+        <div class="project-card">
+          <img src="https://divinessh.github.io/todolist.png" alt="Project 2">
+          <h3> To-do List Web App</h3>
+          <p>A to-do list web app for users to track their daily tasks. The tasks are stored on the user’s device by local storage</p>
+          <a href="https://divinessh.github.io/todolist" target="_blank" class="btn">View Page</a>
+        </div>
+      </div>
+    </section>
 
-              <p style="color:green;">Note : It may take 5-20 seconds to process your submission. Thank you for kindly waiting in advance.</p>
-              <input type="hidden" name="_captcha" value="false">
-              <input type="submit" class="btn" value="Submit">
-            </form>
-        </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="https://formsubmit.co/7c96ba9b6a52e76cfd53d54335aca2d8" method="POST">
+        <input type="hidden" name="_next" value="https://divinessh.github.io/contact/thanks.html">
+        <input type="text" name="name" placeholder="Your Name" required>
+      <br>  <input type="email" name="email" placeholder="Your Email" required>
+      <br>  <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <input type="hidden" name="_captcha" value="false">
+      <p style="color:green;">Note : It may take 5-10 seconds to process your submission. Thank you for kindly waiting in advance😊</p>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      <div class="social-icons">
+        <a href="https://instagram.com/divinesshsiva" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://github.com/divinessh" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </section>
 
-         <section id="contact">
-            <h2>Other Links</h2>
-            <ul>
-              <!--  <li>
-                    <span class="icon-circle"><i class="fas fa-envelope"></i></span>
-                    <a href="#">mail@mail.com</a>
-                </li>-->
-                <li>
-                    <span class="icon-circle"><i class="fab fa-instagram"></i></span>
-                    <a href="https://instagram.com/divinesshsiva" target="_blank">@divinesshsiva</a>
-                </li>
-                <li>
-                    <span class="icon-circle"><i class="fab fa-github"></i></span>
-                    <a href="https://github.com/divinessh" target="_blank">@divinesshsiva</a>
-                </li>
-            </ul>
-        </section>
+  </div>
 
+  <footer>
+    <p>&copy; 2025 Divinessh Siva | Thanks for visiting!</p>
+  </footer>
 
+  <script>
+    // Fade-in sections on scroll
+    const sections = document.querySelectorAll('section');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          const skillBars = entry.target.querySelectorAll('.skill-level');
+          skillBars.forEach(bar => {
+            bar.style.width = bar.getAttribute('data-skill');
+          });
+        }
+      });
+    }, { threshold: 0.2 });
+    sections.forEach(section => observer.observe(section));
+  </script>
 
-    <!--RESUME-->
-    <!--    <section id="resume">
-            <h2>Resume</h2>
-            <p>Here's my resume for your reference</p>
-            <a href="path/to/your/resume.pdf" class="btn" download>Download Resume</a>
-        </section>
-
-        <section id="academic-results">
-            <h2>Academic Results</h2>
-            <p>SPM Results:</p>
-            <ul>
-                <li>5A+</li>
-                <li>4A</li>
-                <li>C1 grade in CEFR</li>
-            </ul>
-        </section>-->
-
-
-    </div>
-    <footer>
-      <p>Thanks for visiting!</p>
-      <p>&copy; 2025 Divinessh Siva</p>
-    </footer>
 </body>
 </html>
